@@ -16,9 +16,9 @@ dependencyResolutionManagement {
     repositories {
         google()
         mavenCentral()
+        maven { url = uri("https://jcenter.bintray.com")}
     }
 }
 
 rootProject.name = "HiltMvvmRoomApi"
 include(":app")
- 
